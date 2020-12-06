@@ -10,7 +10,7 @@ public class FourthDez {
     public static void main(String[] args) throws IOException {
         ArrayList<String> sevisList = new ArrayList();
         ArrayList<String> passports = new ArrayList();
-        BufferedReader myBufferedReader = new BufferedReader(new FileReader("/Users/severingoddon/Desktop/CodeKalender/src/main/java/passports.txt")); //mac path
+        BufferedReader myBufferedReader = new BufferedReader(new FileReader("/Users/severingoddon/Desktop/CodeKalender/src/main/resources/passports.txt")); //mac path
         //BufferedReader myBufferedReader = new BufferedReader(new FileReader("C:\\Users\\sevi\\Desktop\\IntelliJProjects\\Kalender\\src\\main\\java\\passports.txt")); //windows path
         try {
             String line = myBufferedReader.readLine();

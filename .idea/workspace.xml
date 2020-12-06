@@ -70,7 +70,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SevisBinaryShit">
+  <component name="RunManager" selected="Application.FourthDez">
     <configuration name="FifthDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FifthDez" />
       <module name="CodeCalendar.main" />
@@ -133,6 +133,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="358" y="63" key="CommitChangelistDialog2" timestamp="1607259032094">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="358" y="63" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607259032094" />
     <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1607253955470">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -173,5 +177,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="312" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607098060148" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607259035162">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607259035162" />
   </component>
 </project>
