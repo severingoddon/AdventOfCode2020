@@ -10,8 +10,8 @@ public class FourthDez {
     public static void main(String[] args) throws IOException {
         ArrayList<String> sevisList = new ArrayList();
         ArrayList<String> passports = new ArrayList();
-        //BufferedReader sevisBufferedReader = new BufferedReader(new FileReader("/Users/severingoddon/Desktop/CodeCalendar/src/main/java/passports.txt")); //mac path
-        BufferedReader myBufferedReader = new BufferedReader(new FileReader("C:\\Users\\sevi\\Desktop\\IntelliJProjects\\Kalender\\src\\main\\java\\passports.txt")); //windows path
+        BufferedReader myBufferedReader = new BufferedReader(new FileReader("/Users/severingoddon/Desktop/CodeKalender/src/main/java/passports.txt")); //mac path
+        //BufferedReader myBufferedReader = new BufferedReader(new FileReader("C:\\Users\\sevi\\Desktop\\IntelliJProjects\\Kalender\\src\\main\\java\\passports.txt")); //windows path
         try {
             String line = myBufferedReader.readLine();
             while (line != null) {
@@ -49,13 +49,13 @@ public class FourthDez {
             if(password.contains("hgt:")) checker++;
 
             if(checker==7){
-                if(checkPassoword(password)) resultCounter++;
+                if(checkPassword(password)) resultCounter++;
             }
         }
 
         System.out.println(resultCounter);
     }
-    public static boolean checkPassoword(String password){
+    public static boolean checkPassword(String password){
         String[] elements = password.split(" ");
         int checker = 0;
         for(int i = 0; i<elements.length; i++){
@@ -86,34 +86,84 @@ public class FourthDez {
     }
 
     public static boolean checkECL(String element){
-        return true;
+        String[] arguments = element.split(":");
+        String color = arguments[1];
+        String validColors = "amb blu brn gry grn hzl oth";
+        return validColors.contains(color);
     }
     public static boolean checkPID(String element){
-        return true;
+        String[] arguments = element.split(":");
+        String pid = arguments[1];
+        return pid.length()==9;
     }
+
+    public static boolean checkHCL(String element){
+        String[] arguments = element.split(":");
+        String color = arguments[1];
+        if(color.contains("#")){
+            String[] color2 = color.split("#");
+            String code = color2[1];
+            if(code.length()==6){
+                if(checkColor(code))return true;
+            }
+        }
+        return false;
+    }
+
+
     public static boolean checkEYR(String element){
         String[] arguments = element.split(":");
-        if((arguments[1].length()==4))return false;
+        if(!((arguments[1].length()==4)))return false;
         int date = Integer.parseInt(arguments[1]);
         return date >= 2020 && date <= 2030;
     }
-    public static boolean checkHCL(String element){
-        return true;
-    }
+
     public static boolean checkBYR(String element){
         String[] arguments = element.split(":");
-        if((arguments[1].length()==4))return false;
+        if(!((arguments[1].length()==4)))return false;
         int date = Integer.parseInt(arguments[1]);
         return date >= 1920 && date <= 2002;
     }
     public static boolean checkIYR(String element){
         String[] arguments = element.split(":");
-        if((arguments[1].length()==4))return false;
+        if(!((arguments[1].length()==4)))return false;
         int date = Integer.parseInt(arguments[1]);
         return date >= 2010 && date <= 2020;
     }
     public static boolean checkHGT(String element){
-        return true;
+        String[] arguments = element.split(":");
+        String second = arguments[1];
+        if(second.charAt(second.length()-2) == 'c' ){
+            String[] secondsplit = second.split("c");
+            int number = Integer.parseInt(secondsplit[0]);
+            if(number >= 150 && number <=193){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        if(second.charAt(second.length()-2) == 'i' ){
+            String[] secondsplit = second.split("i");
+            int number = Integer.parseInt(secondsplit[0]);
+            if(number >= 59 && number <=76){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        return false;
+    }
+
+    public static boolean checkColor(String color){
+        String digits = "0123456789";
+        String letters = "abcdef";
+        int checker = 0;
+        for(int i = 0; i<color.length(); i++){
+            if(digits.indexOf(color.charAt(i))!= -1 || letters.indexOf(color.charAt(i))!= -1 ){
+                checker++;
+            }
+        }
+        return checker == 6;
     }
 
 }
