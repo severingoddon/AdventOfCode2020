@@ -43,6 +43,7 @@ public class NinthDez {
                         resultArray[k] = tester[k];
                     }
                     found = true;
+
                 }
             }
             if(found)break;
