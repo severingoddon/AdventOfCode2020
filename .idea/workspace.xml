@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a30219d-4d2e-4260-917d-97b4b6aaf593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FifthDez.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SevisBinaryShit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SixtDez.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/alphabet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/boarding.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NinthDez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeventhDez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eightdez/EightDez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eightdez/EightDez3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/eightdez/TestEightDez.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seventhdez/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seventhdez/BagWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bags.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bags2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/instructions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/preambels.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FourthDez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FourthDez.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,51 +55,56 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FourthDez">
-    <configuration name="FifthDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FifthDez" />
+  <component name="RunManager" selected="Application.NinthDez">
+    <configuration name="EightDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eightdez.EightDez" />
       <module name="CodeCalendar.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourthDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourthDez" />
+    <configuration name="EightDez3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eightdez.EightDez3" />
       <module name="CodeCalendar.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SevisBinaryShit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SevisBinaryShit" />
+    <configuration name="NinthDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NinthDez" />
       <module name="CodeCalendar.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SixtDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SixtDez" />
+    <configuration name="SeventhDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SeventhDez" />
       <module name="CodeCalendar.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThirdDez" />
+    <configuration name="TestEightDez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eightdez.TestEightDez" />
       <module name="CodeCalendar.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SevisBinaryShit" />
-        <item itemvalue="Application.SixtDez" />
-        <item itemvalue="Application.FifthDez" />
-        <item itemvalue="Application.FourthDez" />
-        <item itemvalue="Application.ThirdDez" />
+        <item itemvalue="Application.NinthDez" />
+        <item itemvalue="Application.EightDez3" />
+        <item itemvalue="Application.TestEightDez" />
+        <item itemvalue="Application.EightDez" />
+        <item itemvalue="Application.SeventhDez" />
       </list>
     </recent_temporary>
   </component>
@@ -127,59 +131,81 @@
       <option name="presentableId" value="Default" />
       <updated>1606834490979</updated>
     </task>
+    <task id="LOCAL-00001" summary="many things">
+      <created>1607259032496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607259032496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="better structure">
+      <created>1607259193033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607259193033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="many things" />
+    <MESSAGE value="better structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="better structure" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="358" y="63" key="CommitChangelistDialog2" timestamp="1607259032094">
+    <state x="358" y="63" key="CommitChangelistDialog2" timestamp="1607259192550">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="358" y="63" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607259032094" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1607253955470">
+    <state x="358" y="63" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607259192550" />
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom" timestamp="1607521511577">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1865" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607101409644" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607253955470" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1607253955469">
+    <state width="1398" height="267" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607521511577" />
+    <state width="1398" height="267" key="GridCell.Tab.0.center" timestamp="1607521511577">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1865" height="417" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607101409644" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607253955469" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1607253955468">
+    <state width="1398" height="267" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607521511577" />
+    <state width="1398" height="267" key="GridCell.Tab.0.left" timestamp="1607521511576">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1865" height="417" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607101409644" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607253955468" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1607253955470">
+    <state width="1398" height="267" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607521511576" />
+    <state width="1398" height="267" key="GridCell.Tab.0.right" timestamp="1607521511577">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1865" height="417" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607101409644" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607253955470" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1607253955473">
+    <state width="1398" height="267" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607521511577" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1607519503761">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607253955473" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1607253955472">
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607519503761" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1607519503760">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1607253955472" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1607253955471">
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1607519503760" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1607519503760">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1607253955471" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1607253955472">
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1607519503760" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1607519503761">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1607253955472" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1607519503761" />
     <state x="312" y="0" key="SettingsEditor" timestamp="1607098060148">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="312" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1607098060148" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607259035162">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607259194416">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607259035162" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607259194416" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1607376582136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1607376582136" />
   </component>
 </project>
